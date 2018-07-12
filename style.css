@@ -1,5 +1,8 @@
 body{
-	font-family: 'Circular Bold', Helvetica, sans-serif;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	 line-height: 1.7;
+	 color: #4795BA;
+
 }
 
 h1{
@@ -11,9 +14,9 @@ h1{
 }
 label{
 	display: block;
-	margin-top:.5em;
+	margin-top:1.5em;
 	font-weight: bold;
-	color: #4795BA;
+
 
 }
 
@@ -55,10 +58,25 @@ input:focus{
 	outline: solid #5955ff;
 }
 
+select{
+	padding: 1rem;
+}
+
 @media(min-width: 540px){
     .maincontent{
 		width: 80%;
 		margin:auto;
 		
+	}
+
+	.group-input{
+		
+		width: 25%;
+	}
+
+
+	
+	.flex label{
+		display: inline-block;
 	}
 }
